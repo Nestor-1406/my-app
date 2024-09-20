@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import InfoBox from "./components/InfoBox/InfoBox.jsx"
+import Button from "./components/Button/button.jsx"
+import List from "./components/list/list.jsx"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hello world</h1>
+      <InfoBox/>
+      <Button/>
+      <List/>
     </div>
   );
 }
